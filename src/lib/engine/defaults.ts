@@ -141,6 +141,42 @@ export const SBP_SETTINGS_2026: Settings = {
     },
   ],
 
+  lists: {
+    positions: [
+      { code: 'SP', name: 'Sales Promotion' },
+      { code: 'TL', name: 'Team Leader' },
+      { code: 'ASM', name: 'Assistant Store Manager' },
+      { code: 'SM', name: 'Store Manager' },
+    ],
+    facilities: ['HP'],
+    salesCategories: ['NORMAL', 'AFILIASI', 'IMPORT', 'ONGKIR'],
+    returnCauses: [
+      { code: 'SALES', name: 'Kesalahan sales' },
+      { code: 'BARANG_TIDAK_LAKU', name: 'Barang tidak laku' },
+      { code: 'BARANG_RUSAK', name: 'Barang rusak' },
+      { code: 'SYSTEM_ERROR', name: 'System error' },
+      { code: 'CUSTOMER', name: 'Permintaan customer' },
+      { code: 'CHECKER', name: 'Kesalahan checker' },
+      { code: 'MD', name: 'Kesalahan MD' },
+      { code: 'ADMIN', name: 'Kesalahan admin' },
+      { code: 'LAINNYA', name: 'Lainnya' },
+    ],
+    absenceCodes: [
+      { code: 'ALPA', name: 'Tidak hadir tanpa keterangan' },
+      { code: 'TELAT', name: 'Terlambat' },
+      { code: 'CT', name: 'Cuti tahunan' },
+      { code: 'SD', name: 'Sakit dengan surat dokter' },
+      { code: 'STSD', name: 'Sakit tanpa surat dokter' },
+      { code: 'CL', name: 'Cuti lainnya' },
+      { code: 'CM', name: 'Cuti melahirkan' },
+      { code: 'IPG', name: 'Izin potong gaji' },
+      { code: 'LSLK', name: 'LSLK' },
+      { code: 'TLN', name: 'TLN' },
+      { code: 'CIM', name: 'CIM' },
+    ],
+    eventCodes: [{ code: 'KOMPLAIN', name: 'Komplain pelanggan' }],
+  },
+
   dataRules: {
     // Default sementara, menunggu keputusan b, c, d di PRD
     salesCategoriesCounted: ['NORMAL', 'AFILIASI'],

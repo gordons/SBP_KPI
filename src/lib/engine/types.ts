@@ -146,6 +146,15 @@ export interface Settings {
   tierTables: Record<string, TierTable>;
   indicators: IndicatorDef[];
   templates: PositionTemplate[];
+  /** Daftar pilihan (dropdown) di template upload. */
+  lists: {
+    positions: { code: Position; name: string }[];
+    facilities: string[];
+    salesCategories: string[];
+    returnCauses: { code: string; name: string }[];
+    absenceCodes: { code: string; name: string }[];
+    eventCodes: { code: string; name: string }[];
+  };
   dataRules: {
     salesCategoriesCounted: string[];
     returnCausesCounted: string[] | 'ALL';
