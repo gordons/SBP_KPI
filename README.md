@@ -1,7 +1,8 @@
 # SBP KPI & Insentif — Fase 1
 
-Sudah selesai: **Langkah 1** (mesin hitung, database, uji ulang Oktober 2026) dan **Langkah 2** (template upload + validasi).
-Layar aplikasi (Next.js) dibangun di Langkah 3 di atas fondasi ini.
+Sudah selesai: **Langkah 1** (mesin hitung, database, uji ulang Oktober 2026), **Langkah 2** (template upload + validasi),
+**Langkah 3** (aplikasi web: login, periode, upload, cek & hitung, hasil, override, persetujuan),
+dan **Langkah 4** (export rekap payroll Excel + form Penilaian Kinerja PDF).
 
 ## Isi folder
 
@@ -15,6 +16,10 @@ Layar aplikasi (Next.js) dibangun di Langkah 3 di atas fondasi ini.
 | `src/lib/import/` | Pembaca upload: validasi per baris + rekonsiliasi sebelum hitung |
 | `templates/` | Contoh 5 file template untuk dicek (di aplikasi dibuat otomatis dari Setting) |
 | `supabase/migrations/0002_template_lists.sql` | Menambah daftar pilihan dropdown ke setting yang sudah ada |
+| `src/app/` | Layar aplikasi Next.js |
+| `src/lib/export/` | Pembuat rekap payroll (.xlsx) dan form Penilaian Kinerja (.pdf) |
+| `supabase/migrations/0003_app_functions.sql` | Fungsi upload, simpan hasil, persetujuan, override |
+| `contoh-oktober-2026/` | 4 file upload berisi data Oktober 2026 untuk uji coba |
 | `tests/` | Uji otomatis + data uji dari workbook Oktober 2026 |
 
 ## Hasil uji ulang Oktober 2026
@@ -27,7 +32,7 @@ Semua cocok dengan Excel:
 Jalankan sendiri:
 ```
 npm install
-npm test             # 16 uji otomatis
+npm test             # 19 uji otomatis
 npm run uji-oktober  # laporan aplikasi vs Excel per karyawan
 ```
 
@@ -50,6 +55,31 @@ npm run uji-oktober  # laporan aplikasi vs Excel per karyawan
 | Target toko MSA | Blok "MSA bagi 2" di sheet Target × 2 (Okt = 950 jt) |
 | Pembulatan insentif | Rp 1 |
 
+## Deploy aplikasi (Langkah 3)
+
+**1. Supabase**
+- SQL Editor: jalankan `supabase/migrations/0003_app_functions.sql`.
+- Authentication > Sign In / Providers > Email: matikan **Allow new users to sign up** (akun dibuat oleh HR Manager saja).
+- Authentication > Users > **Add user**: isi email dan kata sandi, centang *Auto Confirm User*.
+- Beri peran lewat SQL Editor (ulangi per orang):
+  ```sql
+  insert into public.profiles (user_id, full_name, role)
+  select id, 'Nama Lengkap', 'hr_manager' from auth.users where email = 'nama@perusahaan.com';
+  ```
+  Peran: `hr_manager` (semua, termasuk setujui & kunci), `hr_admin` (upload, hitung, override, ajukan), `viewer` (lihat hasil periode terkunci).
+
+**2. Vercel**
+- Add New > Project > import repo GitHub ini. Framework terdeteksi otomatis (Next.js).
+- Environment Variables (ambil dari Supabase > Project Settings > API):
+  `NEXT_PUBLIC_SUPABASE_URL` dan `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+- Deploy. Disarankan: Settings > Functions > Region = Singapore (sin1), dekat dengan database.
+
+**3. Uji coba dengan data Oktober 2026**
+1. Login, buat periode Oktober 2026.
+2. Upload 4 file di folder `contoh-oktober-2026/` sesuai urutan nomornya.
+3. Cek & hitung > Hitung KPI. Total insentif harus **Rp 5.143.956** (4 SP MLN), sama dengan Excel.
+4. Coba alur: Ajukan > Setujui > Kunci (pakai akun HR Manager).
+
 ## Template upload (Langkah 2)
 
 | Template | 1 baris = |
@@ -64,7 +94,17 @@ Validasi otomatis: kolom wajib, NIK harus ada di Penempatan, nomor faktur dobel,
 toko/kategori/penyebab di luar daftar, NIK Atasan harus ada di file. Baris bermasalah ditolak beserta alasan;
 baris benar tetap diterima. Angka teks "1.234.567" dan tanggal "15/10/2026" tetap terbaca.
 
+## Export (Langkah 4)
+
+Di tab **Hasil & persetujuan** dan halaman rincian karyawan:
+
+| File | Isi |
+|---|---|
+| Rekap payroll (.xlsx) | Sheet Rekap Insentif (1 baris per karyawan, insentif hitung, override, insentif akhir, total), Ringkasan per toko & jabatan, Rincian Komponen, Info (status, versi setting, riwayat persetujuan) |
+| Form penilaian (.pdf) | 1 halaman A4 per karyawan: data karyawan, tabel kinerja, tier & insentif, parameter tier, kekuatan/kekurangan, 5 kolom tanda tangan. Bisa semua karyawan, per jabatan, atau per orang |
+
+Selama periode belum dikunci, kedua file diberi tanda **DRAF**. Viewer baru bisa mengunduh setelah periode dikunci.
+
 ## Langkah berikutnya
 
-3. Layar Setting, Periode/Upload, Hasil, Approval
-4. Export rekap payroll + form PA
+5. Layar pengubahan Setting (target toko, bobot, tangga, tier, aturan data) dengan versi per periode
