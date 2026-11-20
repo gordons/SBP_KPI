@@ -1,0 +1,975 @@
+{
+ "input": {
+  "period": "2026-10",
+  "placements": [
+   {
+    "nik": "190036",
+    "name": "WELI YUFRIANTI",
+    "position": "SP",
+    "store": "TBB",
+    "superiorNik": "240008",
+    "joinDate": "2018-01-01",
+    "facility": "HP"
+   },
+   {
+    "nik": "190061",
+    "name": "TRI YULIANI",
+    "position": "SP",
+    "store": "DRM",
+    "superiorNik": "190046",
+    "joinDate": "2018-08-08",
+    "facility": "HP"
+   },
+   {
+    "nik": "230076",
+    "name": "WINDA WULANDARI",
+    "position": "SP",
+    "store": "TBB",
+    "superiorNik": "240008",
+    "joinDate": "2023-08-24",
+    "facility": "HP"
+   },
+   {
+    "nik": "230012",
+    "name": "DEWI SRI OKTAVIYANTI",
+    "position": "SP",
+    "store": "DRM",
+    "superiorNik": "190046",
+    "joinDate": "2023-02-01",
+    "facility": "HP"
+   },
+   {
+    "nik": "190013",
+    "name": "MUNAWAROH",
+    "position": "SP",
+    "store": "TBB",
+    "superiorNik": "240008",
+    "joinDate": "2014-09-29",
+    "facility": "HP"
+   },
+   {
+    "nik": "250082",
+    "name": "MUHAMAD NURY",
+    "position": "SP",
+    "store": "TBB",
+    "superiorNik": "240008",
+    "joinDate": "2025-10-10",
+    "facility": "HP"
+   },
+   {
+    "nik": "190043",
+    "name": "WINARSIH",
+    "position": "SP",
+    "store": "MSA",
+    "superiorNik": "190030",
+    "joinDate": "2018-01-01",
+    "facility": "HP"
+   },
+   {
+    "nik": "190107",
+    "name": "SUHARTINI",
+    "position": "SP",
+    "store": "MLN",
+    "superiorNik": "190119",
+    "joinDate": "2019-07-01",
+    "facility": "HP"
+   },
+   {
+    "nik": "190044",
+    "name": "MULYA PRATIWI DEWI",
+    "position": "SP",
+    "store": "MLN",
+    "superiorNik": "190119",
+    "joinDate": "2018-01-01",
+    "facility": "HP"
+   },
+   {
+    "nik": "190022",
+    "name": "LUTFIYANI FITRI",
+    "position": "SP",
+    "store": "MLN",
+    "superiorNik": "210130",
+    "joinDate": "2016-08-01",
+    "facility": "HP"
+   },
+   {
+    "nik": "190100",
+    "name": "NOPIANTI",
+    "position": "SP",
+    "store": "MLN",
+    "superiorNik": "210130",
+    "joinDate": "2019-05-27",
+    "facility": "HP"
+   },
+   {
+    "nik": "190023",
+    "name": "MUNADIPAH",
+    "position": "SP",
+    "store": "MLN",
+    "superiorNik": "190119",
+    "joinDate": "2016-07-18",
+    "facility": "HP"
+   },
+   {
+    "nik": "240083",
+    "name": "DANIA AHMAD ZAINI",
+    "position": "SP",
+    "store": "MLN",
+    "superiorNik": "190119",
+    "joinDate": "2024-11-28",
+    "facility": "HP"
+   },
+   {
+    "nik": "260062",
+    "name": "NAHDA",
+    "position": "SP",
+    "store": "MLN",
+    "superiorNik": "210130",
+    "joinDate": "2026-06-08",
+    "facility": "HP"
+   },
+   {
+    "nik": "200111",
+    "name": "Sukarman",
+    "position": "SP",
+    "store": "TBB",
+    "superiorNik": "260075",
+    "joinDate": "2020-12-12",
+    "facility": "HP"
+   },
+   {
+    "nik": "190182",
+    "name": "Yayuk Wulan Sari",
+    "position": "SP",
+    "store": "TBB",
+    "superiorNik": "260075",
+    "joinDate": "2018-01-12",
+    "facility": "HP"
+   },
+   {
+    "nik": "190030",
+    "name": "RASMIATI SAFITRI",
+    "position": "TL",
+    "store": "MSA",
+    "superiorNik": null,
+    "joinDate": "2017-05-15",
+    "facility": "HP"
+   },
+   {
+    "nik": "210130",
+    "name": "MUHAMMAD NAZARRUDIN",
+    "position": "TL",
+    "store": "MLN",
+    "superiorNik": null,
+    "joinDate": "2021-09-14",
+    "facility": "HP"
+   },
+   {
+    "nik": "190119",
+    "name": "OKTAVIANI",
+    "position": "TL",
+    "store": "MLN",
+    "superiorNik": null,
+    "joinDate": "2019-08-03",
+    "facility": "HP"
+   },
+   {
+    "nik": "190046",
+    "name": "MUHAMAD MAULANA",
+    "position": "TL",
+    "store": "DRM",
+    "superiorNik": null,
+    "joinDate": "2018-01-01",
+    "facility": "HP"
+   },
+   {
+    "nik": "240008",
+    "name": "NIA ANGGRAENY H",
+    "position": "TL",
+    "store": "TBB",
+    "superiorNik": null,
+    "joinDate": "2024-02-05",
+    "facility": "HP"
+   },
+   {
+    "nik": "260075",
+    "name": "REZA AMSAL GINTING",
+    "position": "TL",
+    "store": "TBB",
+    "superiorNik": null,
+    "joinDate": "2026-07-13",
+    "facility": "HP"
+   },
+   {
+    "nik": "190003",
+    "name": "ESTI SULISTYANI",
+    "position": "ASM",
+    "store": "TBB",
+    "superiorNik": null,
+    "joinDate": "2002-12-27",
+    "facility": "HP"
+   },
+   {
+    "nik": "190002",
+    "name": "RINI WIDIANTI",
+    "position": "ASM",
+    "store": "TBB",
+    "superiorNik": null,
+    "joinDate": "2001-03-03",
+    "facility": "HP"
+   },
+   {
+    "nik": "190001",
+    "name": "SUSANTI",
+    "position": "ASM",
+    "store": "MLN",
+    "superiorNik": null,
+    "joinDate": "2001-01-01",
+    "facility": "HP"
+   },
+   {
+    "nik": "240021",
+    "name": "FAREL RESTU ADIMIANTO",
+    "position": "ASM",
+    "store": "MLN",
+    "superiorNik": null,
+    "joinDate": "2024-04-22",
+    "facility": "HP"
+   },
+   {
+    "nik": "200085",
+    "name": "EKKY PRATAMA",
+    "position": "SM",
+    "store": "TBB",
+    "superiorNik": null,
+    "joinDate": "2020-09-07",
+    "facility": null
+   },
+   {
+    "nik": "260006",
+    "name": "IBNU HIDAYATULLAH",
+    "position": "SM",
+    "store": "MLN",
+    "superiorNik": null,
+    "joinDate": "2026-01-21",
+    "facility": null
+   }
+  ],
+  "sales": [
+   {
+    "invoiceNo": "AGG-190043",
+    "date": "2026-10-31",
+    "store": "MSA",
+    "nik": "190043",
+    "amount": 254426545,
+    "category": "NORMAL"
+   },
+   {
+    "invoiceNo": "AGG-190107",
+    "date": "2026-10-31",
+    "store": "MLN",
+    "nik": "190107",
+    "amount": 1427655221,
+    "category": "NORMAL"
+   },
+   {
+    "invoiceNo": "AGG-190044",
+    "date": "2026-10-31",
+    "store": "MLN",
+    "nik": "190044",
+    "amount": 1375170909,
+    "category": "NORMAL"
+   },
+   {
+    "invoiceNo": "AGG-190022",
+    "date": "2026-10-31",
+    "store": "MLN",
+    "nik": "190022",
+    "amount": 383265594.72,
+    "category": "NORMAL"
+   },
+   {
+    "invoiceNo": "AGG-190100",
+    "date": "2026-10-31",
+    "store": "MLN",
+    "nik": "190100",
+    "amount": 1846151530.5,
+    "category": "NORMAL"
+   },
+   {
+    "invoiceNo": "AGG-190023",
+    "date": "2026-10-31",
+    "store": "MLN",
+    "nik": "190023",
+    "amount": 1792146323.88,
+    "category": "NORMAL"
+   },
+   {
+    "invoiceNo": "AGG-240083",
+    "date": "2026-10-31",
+    "store": "MLN",
+    "nik": "240083",
+    "amount": 75265250,
+    "category": "NORMAL"
+   },
+   {
+    "invoiceNo": "AGG-260062",
+    "date": "2026-10-31",
+    "store": "MLN",
+    "nik": "260062",
+    "amount": 73938345,
+    "category": "NORMAL"
+   }
+  ],
+  "returns": [
+   {
+    "returnNo": "R-190107-0",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190107",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190107-1",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190107",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190107-2",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190107",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-0",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-1",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-2",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-3",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-4",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-5",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-6",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-7",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-8",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-9",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190044-10",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190044",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-0",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-1",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-2",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-3",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-4",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-5",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-6",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-7",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-8",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-9",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-10",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-11",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-12",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-13",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-14",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-15",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-16",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-17",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-18",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190022-19",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190022",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190100-0",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190100",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190100-1",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190100",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190100-2",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190100",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190100-3",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190100",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190100-4",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190100",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190100-5",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190100",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   },
+   {
+    "returnNo": "R-190100-6",
+    "originalInvoiceNo": null,
+    "date": "2026-10-15",
+    "nik": "190100",
+    "amount": 0,
+    "cause": "UJI",
+    "hasBA": true
+   }
+  ],
+  "attendance": [
+   {
+    "nik": "190036",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190061",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "230076",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "230012",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190013",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "250082",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190043",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190107",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190044",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190022",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190100",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190023",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "240083",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "260062",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "200111",
+    "counts": {
+     "ALPA": 0
+    }
+   },
+   {
+    "nik": "190182",
+    "counts": {
+     "ALPA": 0
+    }
+   }
+  ],
+  "events": []
+ },
+ "expected": {
+  "sp": [
+   {
+    "nik": "190036",
+    "name": "WELI YUFRIANTI",
+    "target": 1406962025.3164558,
+    "achieve": null,
+    "score": null,
+    "rate": null,
+    "incentive": null
+   },
+   {
+    "nik": "190061",
+    "name": "TRI YULIANI",
+    "target": 725000000,
+    "achieve": null,
+    "score": null,
+    "rate": null,
+    "incentive": null
+   },
+   {
+    "nik": "230076",
+    "name": "WINDA WULANDARI",
+    "target": 1406962025.3164558,
+    "achieve": null,
+    "score": null,
+    "rate": null,
+    "incentive": null
+   },
+   {
+    "nik": "230012",
+    "name": "DEWI SRI OKTAVIYANTI",
+    "target": 725000000,
+    "achieve": null,
+    "score": null,
+    "rate": null,
+    "incentive": null
+   },
+   {
+    "nik": "190013",
+    "name": "MUNAWAROH",
+    "target": 1406962025.3164558,
+    "achieve": null,
+    "score": null,
+    "rate": null,
+    "incentive": null
+   },
+   {
+    "nik": "250082",
+    "name": "MUHAMAD NURY",
+    "target": 543037974.6835443,
+    "achieve": null,
+    "score": null,
+    "rate": null,
+    "incentive": null
+   },
+   {
+    "nik": "190043",
+    "name": "WINARSIH",
+    "target": 650000000,
+    "achieve": 254426545,
+    "score": 0.574,
+    "rate": "SP1",
+    "incentive": 0
+   },
+   {
+    "nik": "190107",
+    "name": "SUHARTINI",
+    "target": 1380000000,
+    "achieve": 1427655221,
+    "score": 0.9742,
+    "rate": 0.0005,
+    "incentive": 713827.6105000001
+   },
+   {
+    "nik": "190044",
+    "name": "MULYA PRATIWI DEWI",
+    "target": 1380000000,
+    "achieve": 1375170909,
+    "score": 0.8976,
+    "rate": 0.00025,
+    "incentive": 343792.72725
+   },
+   {
+    "nik": "190022",
+    "name": "LUTFIYANI FITRI",
+    "target": 1380000000,
+    "achieve": 383265594.72,
+    "score": 0.3944,
+    "rate": "SP1",
+    "incentive": 0
+   },
+   {
+    "nik": "190100",
+    "name": "NOPIANTI",
+    "target": 1380000000,
+    "achieve": 1846151530.5,
+    "score": 1.1365,
+    "rate": 0.001,
+    "incentive": 1846151.5305
+   },
+   {
+    "nik": "190023",
+    "name": "MUNADIPAH",
+    "target": 1380000000,
+    "achieve": 1792146323.88,
+    "score": 1.2091,
+    "rate": 0.00125,
+    "incentive": 2240182.90485
+   },
+   {
+    "nik": "240083",
+    "name": "DANIA AHMAD ZAINI",
+    "target": 1016842105.263158,
+    "achieve": 75265250,
+    "score": 0.3518,
+    "rate": "SP1",
+    "incentive": 0
+   },
+   {
+    "nik": "260062",
+    "name": "NAHDA",
+    "target": 290526315.7894737,
+    "achieve": 73938345,
+    "score": 0.4781,
+    "rate": "SP1",
+    "incentive": 0
+   },
+   {
+    "nik": "200111",
+    "name": "Sukarman",
+    "target": 1406962025.3164558,
+    "achieve": null,
+    "score": null,
+    "rate": null,
+    "incentive": null
+   },
+   {
+    "nik": "190182",
+    "name": "Yayuk Wulan Sari",
+    "target": 1406962025.3164558,
+    "achieve": null,
+    "score": null,
+    "rate": null,
+    "incentive": null
+   }
+  ],
+  "tl": [
+   {
+    "nik": "190030",
+    "name": "RASMIATI SAFITRI",
+    "target": 950000000
+   },
+   {
+    "nik": "210130",
+    "name": "MUHAMMAD NAZARRUDIN",
+    "target": 3350526315.7894735
+   },
+   {
+    "nik": "190119",
+    "name": "OKTAVIANI",
+    "target": 5456842105.263158
+   },
+   {
+    "nik": "190046",
+    "name": "MUHAMAD MAULANA",
+    "target": 1750000000
+   },
+   {
+    "nik": "240008",
+    "name": "NIA ANGGRAENY H",
+    "target": 5063924050.632912
+   },
+   {
+    "nik": "260075",
+    "name": "REZA AMSAL GINTING",
+    "target": 3113924050.6329117
+   }
+  ]
+ }
+}
